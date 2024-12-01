@@ -7,22 +7,25 @@ static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 0;        /* 0 means bottom bar */
 static const char *fonts[]          = { "monospace:size=10" };
 static const char dmenufont[]       = "monospace:size=10";
-static const char col_gray1[]       = "#1e1e3c";
-static const char col_gray2[]       = "#3c3c6e";
-static const char col_gray3[]       = "#a6a6c9";
-static const char col_gray4[]       = "#e0e0f4";
-static const char col_cyan[]        = "#8a2be2";  // Blueish-purplish color
-static const char norm_fg[] = "#d5c2e3";
-static const char norm_bg[] = "#0d0913";
-static const char norm_border[] = "#95879e";
+static const char col_gray1[]       = "#e0e0f4";  
+static const char col_gray2[]       = "#c9c9e0";   
+static const char col_gray3[]       = "#b3b3d9";   
+static const char col_gray4[]       = "#a6b3d9";   
 
-static const char sel_fg[] = "#d5c2e3";
-static const char sel_bg[] = "#983CCE";
-static const char sel_border[] = "#d5c2e3";
+static const char col_cyan[]        = "#87CEFA";
 
-static const char urg_fg[] = "#d5c2e3";
-static const char urg_bg[] = "#8778B4";
-static const char urg_border[] = "#8778B4";
+static const char norm_fg[] = "#000000";        
+static const char norm_bg[] = "#E6F3FF";        
+static const char norm_border[] = "#B3D9FF";  
+
+static const char sel_fg[] = "#000000";
+static const char sel_bg[] = "#ADD8E6";         
+static const char sel_border[] = "#4682B4";   
+
+static const char urg_fg[] = "#000000";
+static const char urg_bg[] = "#4682B4";         
+static const char urg_border[] = "#4682B4";
+
 
 static const char *colors[][3]      = {
     /*               fg           bg         border                         */
