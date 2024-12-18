@@ -8,8 +8,8 @@ static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 #define ICONSIZE 20   /* icon size */
 #define ICONSPACING 5 /* space between icon and title */
-static const char *fonts[]          = { "terminus:size=15" };
-static const char dmenufont[]       = "terminus:size=15";
+static const char *fonts[]          = { "terminus:size=15:style=Bold" };
+static const char dmenufont[]       = "terminus:size=15:style=Bold";
 static const char col_gray1[]       = "#1a1b26"; /* Dark background */
 static const char col_gray2[]       = "#24283b"; /* Darker gray for inactive elements */
 static const char col_gray3[]       = "#a9b1d6"; /* Light gray for text */
